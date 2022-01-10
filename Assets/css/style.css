@@ -1,3 +1,6 @@
-body {
-    background: red;
+header {
+    background: lightblue;
+}
+footer {
+    display: block;
 }

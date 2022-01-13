@@ -5,7 +5,7 @@
 }
 body {
     padding: 30px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'century', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #34a9c7;
     color: #ffffff;
 }
@@ -31,11 +31,16 @@ header nav ul li {
 a {
     color: #ffffff;
     text-decoration: none;
+    text-align: right;
 }
 
 p {
     font-size: 20px;
+    text-align: center;
 }
 footer {
+    padding: 25px;
     display: block;
+    font-family: 'Century', 'Lucida Sans Unicode', 'Lucida Sans Grande', 'Lucida Sans','Arial', 'Sans-serif';
+    text-align: center;
 }

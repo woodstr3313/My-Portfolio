@@ -28,16 +28,19 @@ header nav ul li {
     margin-left: 25px;
 }
 
+.header img {
+    float: none;
+    margin: 10px auto;
+    max-width: 2000px;
+}
+
 a {
     color: #ffffff;
     text-decoration: none;
     text-align: right;
 }
 
-p {
-    font-size: 20px;
-    text-align: center;
-}
+
 footer {
     padding: 25px;
     display: block;

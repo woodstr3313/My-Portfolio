@@ -15,8 +15,11 @@ header {
 
 .logo {
     background-image: url("../img/header.jpg");
+    background-size: cover;
     height: 200px;
-    background-position: left;
+    background-position: center center;  
+    /* height: 200px;
+    background-position: left; */
 }
 
 #workplace-img {

@@ -1,140 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset=" UTF-8" />
-        <meta name="viewport" content="width=device-width, intial-scale=1.0">
-        <title> Travis Woods Portolio</title>
-        <link rel="stylesheet" href="Assets/css/style.css">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    </head>
-    
-    <body>
-        <header>
-            <div class="logo">
-                <nav class="nav">
-                    <ul class="nav-list">
-                        <li class="nav-item"><a href="#Home" class="nav-link">Home</a></li>
-                        <li class="nav-item"><a href="#About-Me" class="nav-link">About Me</a></li>    
-                        <li class="nav-item"><a href="#My-Work" class="nav-link">My Work</a></li>    
-                        <li class="nav-item"><a href="#Contact-Me" class="nav-link">Contact Me</a></li>       
-                    </ul>
-                </nav>
-            </div>
-        </header>
 
-        <!-- Introduction-->
-        <div class="container pt-5">
-            <div class="row">
-                <div class="col-2 border-end border-3 border-primary pr-4">
-                    <h1>About Me</h1>
+<head>
+    <meta charset=" UTF-8" />
+    <meta name="viewport" content="width=device-width, intial-scale=1.0" />
+    <title>Travis Woods Portolio</title>
+    <link rel="stylesheet" href="Assets/css/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <nav class="nav">
+                <!-- button to toggle the navbar  -->
+                <div class="nav-header">
+                    <div class="nav-toggle">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
                 </div>
-                <div class="col-10">
-                    My name is Travis and I am a full-stack Web Developer, currently living in Atlanta, Georgia. I studied at Georgia Tech and my primary focus for becoming a web developer is my passion in computer science and paving the way for future developers. In my free time, I enjoy studing computer science and the constant changes that 
-                    <br><br><br><br><br><br><br>
+                <ul class="nav-list">
+                    <div class="nav-close">
+                        <i class="fa-solid fa-times"></i>
+                    </div>
+                    <li class="nav-item"><a href="#Home" class="nav-link">Home</a></li>
+                    <li class="nav-item">
+                        <a href="#About-Me" class="nav-link">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#My-Work" class="nav-link">My Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Contact-Me" class="nav-link">Contact Me</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Introduction-->
+    <div class="about-section">
+        <div class="about-container">
+            <h1>About Me</h1>
+            <div class="border-primary pr-4 about-header">
+                <div class="about-img">
+                    <img src="./Assets/img/Headshot.jpg" alt="" />
+                </div>
+                <div class="header-text">
+                    <h2>I'm <span>Travis</span></h2>
+                    <h3>full-stack Web Developer</h3>
                 </div>
             </div>
-            <br>
-            <div class="row mb-3">
-                <div class="col-2 border-end border-3 border-primary pr-4">
-                    <h1>My Work</h1>
-                </div>
-                <div class="col-10">
-                    <div class="row">
-                        <div class="col-12">
-                            <a href="https://www.google.com/" target="_blank">
-                            <div class="w-100 border border-primary border-3 position-relative">
-                                <div id="workplace-img" class="img-col w-100 position-relative">
-                                </div>
-                                <div class="tagline bg-primary">
-                                    <div class="tagline-content">
-                                        <h2>Surf The Web!</h2>
-                                    </div>
-                                </div>
-                            </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col"></div>
-                        <div class="col"></div>
-                    </div>
-                </div>
+            <p>
+                Currently living in Atlanta, Georgia. I studied at Georgia Tech and my
+                primary focus for becoming a web developer is my passion in computer
+                science and paving the way for future developers. In my free time, I
+                enjoy studing computer science and the constant changes that
+            </p>
+            <div class="about-footer">
+                <ul>
+                    <li>
+                        <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                </ul>
+                <button><a href="">Contact Me</a></button>
             </div>
         </div>
-        <br><br><br><br><br><br><br>
+    </div>
+    <!--     Introduction End      -->
 
-        <section class="intro" id="Home">
-            <h1 class="section-intro">
-                Hi, I am <strong> Travis Woods</strong>
-            </h1>
-            <p class="section-intro">I am a Full Stack Web Developer</p>
-            <img src="Assets/img/Headshot.jpg" alt="A headshot of Travis Woods smiling.">
-        </section>
+    <!-- MY WORK SECTION -->
 
-        <section class="About-Me" id="About-Me">
-            <h2 class="section-About-Me">About Me</h2>
-            <p class="section-About-Me"></p>
-            
-            <div class="About-Me">
-                <p>I'm a full stack Engineer currently based out of Atlanta, GA. I enjoy working on both the front end and back end applications of web design. <br>I am currently attending a boot camp through Georgia Tech to ramp up my skills in HTML, CSS, JavaScript and other areas.<br><strong>Thank you for visiting my website today!</strong></p>
-                <img src="Assets/img/Aboutme.jpg" alt="A post it note that says about me sitting on a counter top with a clips next to it.">
+    <section class="My-Work" id="My-Work">
+        <h1>My Work</h1>
+        <div class="work-section-center">
+
+            <div class="work-card">
+                <div class="card-image" style="background: url('./Assets/img/Surfreport.jpg');   background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;">
+                    <h3>Surf Report</h3>
+                    <div class="layer"></div>
+                </div>
+                <div class="card-footer">
+                    <a href=""><i class="fa-solid fa-globe"></i></i></a>
+
+                    <a href=""><i class="fa-brands fa-github"></i></a>
+                </div>
             </div>
-         </section>
 
-        <section class="My-Work" id="My-Work">
-            <h2 class="section-title">My Work</h2>
-            <p class="section-subtitle"></p>
-    
-            <div class="portfolio">
-                <a href="#" class="portfolio-item">
-                    <div class="My-Work">
-                            <h3>Surf Report</h3> 
-                            <img src="Assets/img/Surfreport.jpg" alt="A surfer standing on the beach with a sunset in the background and a pier." class="portfolio img">     
-                    </div> 
-                </a>
-                <a href="#" class="portfolio-item">
-                    <div class="My-Work">
-                        <h3>LED Wall</h3>
-                        <img src="Assets/img/Ledwall.jpg" alt="A black and red wall with a led pink light in the top right corner." class="portfolio img">
-                       
-                    </div> 
-                </a>
-                <a href="#" class="portfolio-item">
-                    <div class="My-Work">
-                        <h3>Calculator</h3>
-                        <img src="Assets/img/Calculator.jpg" alt="A calculator sitting on a desk with a pen next to it." class="portfolio img">
-                      
-                    </div> 
-                </a>
-                <a href="#" class="portfolio-item">
-                    <div class="My-Work">
-                        <h3>Pastel Puzzels</h3>
-                        <img src="Assets/img/Pastel Puzzels.jpeg" alt="An abstract square with 3 triangles in it. Each have different shades of color ranging from black, pink, green, teal, and oarnge." class="portfolio img">
-                        
-                    </div> 
-                </a>
-                <a href="#" class="portfolio-item">
-                    <div class="My-Work">
-                        <h3>Run Buddy</h3>
-                        <img src="Assets/img/RunBuddy.jpg" alt="5 Runners jogging with a sunset in the background" class="portfolio img">
-                       
-                    </div> 
-                </a>
+
+            <div class="work-card">
+                <div class="card-image" style="background: url('./Assets/img/Ledwall.jpg');   background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;">
+                    <h3>LED Wall</h3>
+                    <div class="layer"></div>
+                </div>
+                <div class="card-footer">
+                    <a href=""><i class="fa-solid fa-globe"></i></i></a>
+
+                    <a href=""><i class="fa-brands fa-github"></i></a>
+                </div>
             </div>
-         </section>
 
-     <footer id="Contact-Me">
-         <p>Contact Me</p>
-            <li> <a href="mailto:woodstr3313@gmail.com" class="Contact-Me">woodstr3313@gmail.com</a></li>
-            <li class="social-list-item">Call me at 845-514-4488</li>
-            <li class="social-list-item"><a class="social-list-link"
-                href="https://www.linkedin.com/in/travis-woods-54284a101/">Linkedin</a></li>
-            <li class="social-list-item"><a class="social-list-link"
-                href="https://github.com/woodstr3313">GitHub</a></li>
-         </ul>
-     </footer>
 
-    </body>
+            <div class="work-card">
+                <div class="card-image" style="background: url('./Assets/img/Calculator.jpg');   background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;">
+                    <h3>Calculator</h3>
+                    <div class="layer"></div>
+                </div>
+                <div class="card-footer">
+                    <a href=""><i class="fa-solid fa-globe"></i></i></a>
+
+                    <a href=""><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+
+
+            <div class="work-card">
+                <div class="card-image" style="background: url('./Assets/img/Pastel\ Puzzels.jpeg');   background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;">
+                    <h3>Pastel Puzzels</h3>
+                    <div class="layer"></div>
+                </div>
+                <div class="card-footer">
+                    <a href=""><i class="fa-solid fa-globe"></i></i></a>
+
+                    <a href=""><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+
+            <div class="work-card">
+                <div class="card-image" style="background: url('./Assets/img/RunBuddy.jpg');   background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;">
+                    <h3>Run Buddy</h3>
+                    <div class="layer"></div>
+                </div>
+                <div class="card-footer">
+                    <a href=""><i class="fa-solid fa-globe"></i></i></a>
+
+                    <a href=""><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <footer id="Contact-Me">
+        <h1>Contact Me</h1>
+
+        <div class="contact-info">
+            <a href="mailto:woodstr3313@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+
+                <!-- <span>Email:woodstr3313@gmail.com</span> -->
+            </a>
+            <a href="845-514-4488">
+                <i class="fa-solid fa-phone"></i>
+                <!-- <span>Call me at 845-514-4488</span> -->
+            </a>
+            <a href="https://www.linkedin.com/in/travis-woods-54284a101/">
+                <i class="fa-brands fa-linkedin-in"></i>
+                <!-- <span>Linkedin</span> -->
+            </a>
+            <a href="https://github.com/woodstr3313">
+                <i class="fa-brands fa-github"></i>
+                <!-- <span>Github</span> -->
+            </a>
+        </div>
+
+
+
+    </footer>
+
+    <script src="./Assets/js/app.js"></script>
+</body>
 
 </html>

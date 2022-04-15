@@ -92,7 +92,6 @@ border-left: solid 3px;
       max-width: 700px;
       margin: 0 auto;
     }
-
 .nav-list li {
     margin-top: 0;
 }
@@ -114,6 +113,8 @@ border-left: solid 3px;
 .about-section {
     background-color: #98eefe;
     padding-top: 2rem;
+  
+    
   }
 .about-container {
     margin: 0 auto;
@@ -209,7 +210,6 @@ margin-left: 1rem;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin-bottom: 1.5rem;
   }
-  
   .about-footer button:hover {
     transform: scale(1.1);
   }
@@ -224,20 +224,19 @@ margin-left: 1rem;
       margin: 0 auto;
       margin-bottom: 1rem;
     }
-    
     .about-section {
       padding-top: 1rem;
       margin-top: 0;
+      /* height: fit-content; */
     }
     .about-container {
-      min-height: 87vh;
+      min-height: 75vh;
     }
     .about-container p {
       width: 85%;
       margin: 0 auto;
       margin-top: 20px;
     }
-  
     .about-img {
       position: relative;
     }
@@ -257,7 +256,6 @@ margin-left: 1rem;
       left: -1rem;
       border-radius: 20px;
     }
-  
     .about-header {
       align-items: flex-start;
       justify-content: center;
@@ -287,13 +285,11 @@ margin-left: 1rem;
     background-color: #98eefe;
     padding: 2rem 0;
   }
-  
   .work-section-center {
     width: 90%;
     margin: 0 auto;
     background: transparent;
   }
-  
   .My-Work h1 {
     display: block;
     width: fit-content;
@@ -316,7 +312,6 @@ margin-left: 1rem;
     margin-bottom: 1rem;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
   }
-  
   .card-image {
     overflow: hidden;
     position: relative;
@@ -331,7 +326,6 @@ margin-left: 1rem;
     padding: 1rem;
     transition: all 1s;
   }
-  
   .layer {
     position: absolute;
     top: 0;
@@ -343,13 +337,11 @@ margin-left: 1rem;
   .card-image:hover > .layer {
     background-color: rgb(13, 44, 84, 0.8);
   }
-  
   .card-image:hover > h3 {
     opacity: 1;
     width: 90%;
     height: 90%;
   }
-  
   .card-image h3 {
     position: absolute;
     display: flex;
@@ -370,13 +362,11 @@ margin-left: 1rem;
     justify-content: center;
     align-items: center;
   }
-  
   .card-footer a {
     font-size: 1.2rem;
     margin: 0.5rem;
     color: #0d2c54;
   }
-  
   @media screen and (min-width: 800px) {
     .work-section-center {
       display: grid;
@@ -389,7 +379,6 @@ margin-left: 1rem;
       width: 350px;
     }
   }
-  
   @media screen and (min-width: 1150px) {
     .work-section-center {
       grid-template-columns: repeat(3, 1fr);
@@ -400,7 +389,6 @@ margin-left: 1rem;
     background: #000000b1;
     padding: 1rem;
   }
-  
   #Contact-Me h1 {
     display: block;
     width: fit-content;
@@ -413,13 +401,11 @@ margin-left: 1rem;
     margin-top: 0;
     padding-bottom: 0.5rem;
   }
-  
   .contact-info {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  
   .contact-info a {
     margin: 0 1rem;
     font-size: 1.5rem;

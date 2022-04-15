@@ -1,4 +1,12 @@
 # My-Portfolio
-Page that shows Travis Woods portfolio. I started first by building out the HTML skeleton. I then added my images and alt tags. I used bootstrap to supplement my style.css file and to present my portfolio in the most professional manner I can. 
-Thanks for visiting my page.
+## Description
+Link to My Portfolio https://github.com/woodstr3313/My-Portfolio
+## Projects posted on my page.
+1. GA Hikes -- Hiking App for Georgia National Parks
+2. Weather Dashboard -- Weather App for current and future forecasts
+3. Workday Planner -- App to plan your day accordingly
+4. Code Quiz -- Test your knowledge with my quiz
+
+## Credits
+Thanks for visiting my page!
 -Travis Woods
